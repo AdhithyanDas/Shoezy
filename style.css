@@ -1,0 +1,55 @@
+.carousel img{
+    width: 80%;
+    max-height: 650px;
+    min-height: 200px;
+}
+
+.carousel{
+    z-index: 0;
+    margin-top: 60px;
+}
+
+nav{
+    z-index: 1;
+    min-height: 50px;
+    top: 0;
+}
+
+nav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media (min-width:1px) and (max-width:1000px){
+    nav .navbar-brand{
+       margin-left: 27px;
+    }
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card img{
+    transition: .5s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-img-top{
+    width: 230px !important;
+}
+
+.services i{
+    font-size: 35px;
+}
+
+.services{
+    margin-top: 90px;
+}
